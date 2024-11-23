@@ -9,7 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://modrinth.com/project/banana-lib",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/BananaPuppy/Banana-Lib"
 	},
 	"license": "MIT",
 	"icon": "assets/bananalib/icon.png",
