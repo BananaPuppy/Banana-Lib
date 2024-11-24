@@ -17,7 +17,7 @@ public class Config {
     private final Map<String, ConfigOption<?>> options = new HashMap<>();
 
     public Config(String configFileName) {
-        this.configFilePath = Paths.get(FabricLoader.getInstance().getConfigDir().toString() + configFileName + ".json");
+        this.configFilePath = Paths.get(FabricLoader.getInstance().getConfigDir().toString() + "/" + configFileName + ".json");
         loadConfig();
     }
 
