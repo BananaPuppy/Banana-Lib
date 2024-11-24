@@ -25,6 +25,7 @@ public class Config {
     }
     public void addOption(ConfigOption<?> option) {
         options.putIfAbsent(option.getKey(), option);
+        serializeJson();
     }
 
     @SuppressWarnings("unchecked")
