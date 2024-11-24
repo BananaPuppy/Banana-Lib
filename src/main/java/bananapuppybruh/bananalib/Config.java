@@ -1,4 +1,4 @@
-package bananapuppybruh;
+package bananapuppybruh.bananalib;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

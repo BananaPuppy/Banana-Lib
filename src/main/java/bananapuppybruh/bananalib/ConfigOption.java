@@ -1,4 +1,4 @@
-package bananapuppybruh;
+package bananapuppybruh.bananalib;
 
 public class ConfigOption<T> {
     private final String key;
