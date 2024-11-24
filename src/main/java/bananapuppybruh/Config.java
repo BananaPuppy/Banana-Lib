@@ -2,6 +2,7 @@ package bananapuppybruh;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import net.fabricmc.loader.api.FabricLoader;
 
 import java.io.*;
 import java.nio.file.Files;
@@ -16,7 +17,7 @@ public class Config {
     private final Map<String, ConfigOption<?>> options = new HashMap<>();
 
     public Config(String configFileName) {
-        this.configFilePath = Paths.get(System.getProperty("user.dir"), "config", configFileName + ".json");
+        this.configFilePath = Paths.get(FabricLoader.getInstance().getConfigDir().toString() + configFileName + ".json");
         loadConfig();
     }
 
